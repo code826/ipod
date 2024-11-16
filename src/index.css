@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#touchpad-div{
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+.menu-list{
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  padding: 5px;
+  justify-content: space-between;
+}
+.menu-list .menu{
+  border: 1px solid black;
+  text-align: center;
+}
+.touchpad{
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height:250px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+.touchpad-small{
+  margin: auto;
+  width: 40%;
+  height: 125px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  position: relative;
+  top: 40px;
+  text-align: center;
+  padding-top: 10px;
+}
+.selected{
+  background-color: blue;
+  font-size: 25px;
+}
